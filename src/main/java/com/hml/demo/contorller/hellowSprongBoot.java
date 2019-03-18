@@ -21,7 +21,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class hellowSprongBoot {
     @RequestMapping(value = "/hml")
     public Object helloWorld(){
-        return "<h1>xxd</h1>";
+        return JuniltTest.a == Test2.string;
     }
 
+    public void test(){
+        System.out.println(JuniltTest.a == Test2.string);
+    }
 }
